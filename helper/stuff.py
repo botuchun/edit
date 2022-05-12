@@ -29,7 +29,7 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hello ! ☘️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🎯\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @Gucci_obbo",
+        f"Hello ! 🙋‍♂️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🗜\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @Gucci_obbo",
         buttons=[
             [Button.inline("𝐇𝐄𝐋𝐏", data="ihelp")],
             [
@@ -42,13 +42,13 @@ async def start(event):
 
 async def help(event):
     await event.reply(
-        "**☘️ A Video CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video & Screenshots\n-Due to Quality Settings Bot Takes Time To Compress.\nSend videos One By One After Completing.\n\nJust Forward Video To Get Options"
+        "**🇺🇿 A Video CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video & Screenshots\n-Due to Quality Settings Bot Takes Time To Compress.\nSend videos One By One After Completing.\n\nJust Forward Video To Get Options"
     )
 
 
 async def ihelp(event):
     await event.edit(
-        "**☘️ A  Video CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video & Screenshots\n-Due to Quality Settings Bot Takes Time To Compress.\nSend videos One By One After Completing.\n\nJust Forward Video To Get Options",
+        "**🇺🇿 A  Video CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video & Screenshots\n-Due to Quality Settings Bot Takes Time To Compress.\nSend videos One By One After Completing.\n\nJust Forward Video To Get Options",
         buttons=[Button.inline("BACK", data="beck")],
     )
 
@@ -56,7 +56,7 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"Hello ! ☘️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🎯\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @Gucci_obbo",
+        f"Hello ! 🙋‍♂️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🗜\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @Gucci_obbo",
         buttons=[
             [Button.inline("𝐇𝐄𝐋𝐏", data="ihelp")],
             [
