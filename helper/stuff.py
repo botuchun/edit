@@ -29,12 +29,12 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hello ! ☘️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🎯\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @binary_lk",
+        f"Hello ! ☘️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🎯\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @Gucci_obbo",
         buttons=[
             [Button.inline("𝐇𝐄𝐋𝐏", data="ihelp")],
             [
-                Button.url("𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄", url="github.com/Silentzlk/CompressorBot"),
-                Button.url("𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏", url="t.me/Binary_bots_Support"),
+                Button.url("𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄", url="t.me/Gucci_obbo"),
+                Button.url("𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏", url="t.me/Uzbekchaa_Anime"),
             ],
         ],
     )
@@ -56,12 +56,12 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"Hello ! ☘️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🎯\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @binary_lk",
+        f"Hello ! ☘️ `{ok.user.first_name}`\n\nThis is a Video CompressorBot.🎯\nI can Generate Samples/screenshots too.\n\nJust Foward Video To Get Options\nPowered By @Gucci_obbo",
         buttons=[
             [Button.inline("𝐇𝐄𝐋𝐏", data="ihelp")],
             [
-                Button.url("𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄", url="github.com/Silentzlk/CompressorBot"),
-                Button.url("𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏", url="t.me/Binary_bots_Support"),
+                Button.url("𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄", url="t.me/Gucci_obbo"),
+                Button.url("𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏", url="t.me/Uzbekchaa_Anime"),
             ],
         ],
     )
@@ -84,7 +84,7 @@ async def sencc(e):
 async def back(e):
     key = e.pattern_match.group(1).decode("UTF-8")
     await e.edit(
-        "☘️  **What To Do** ☘️",
+        "😤  **What To Do** 😤",
         buttons=[
             [
                 Button.inline("GENERATE SAMPLE", data=f"gsmpl{key}"),
